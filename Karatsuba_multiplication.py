@@ -62,8 +62,6 @@ def karatsuba(x: int, y: int) -> int:
     if n == 1:
         return x * y
     
-
-         
     else:
         if n % 2 != 0:
             n += 1
